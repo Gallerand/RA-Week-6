@@ -1,0 +1,842 @@
+body {
+    margin: 0;
+    
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        margin: 0;
+    }
+}
+
+.topnavigation {
+    background-color: #D9D9D9;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .topnavigation {
+        background-color:rgb(229, 136, 136);
+        overflow: hidden;
+        margin-top: 0px;
+    }
+}
+
+.topnavigation a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: black
+}
+
+@media screen and (max-width: 375px) {
+    .topnavigation a {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 30px;
+        color: black;
+        float: left;
+    }
+}
+
+.searchicon {
+    position: relative;
+    left: 1226px;
+    top: -27px;
+    height: 20px;
+    width: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    .searchicon {
+    position: relative;
+    left: 267px;
+    bottom: 26px;
+    height: 20px;
+    width: 23px;
+}
+}
+
+.location {
+    position: absolute;
+    left: 750px;
+}
+@media screen and (max-width: 375px) {
+    .location {
+        position: relative;
+        left: 52px;
+        
+    }
+}
+
+.events {
+    position: absolute;
+    left: 856px;
+}
+
+@media screen and (max-width: 375px) {
+    .events {
+        position: relative;
+        left: 56px;
+    }
+}
+
+.aboutus {
+    position: absolute;
+    left: 942px;
+}
+
+@media screen and (max-width: 375px) {
+    .aboutus {
+        position: relative;
+        left: 60px;
+    }
+}
+
+.sign {
+    position: relative;
+    left: 1056px;
+}
+
+@media screen and (max-width: 375px) {
+    .sign {
+        position: relative;
+        left: 66px;
+    }
+}
+
+.librarylogo {
+    position: absolute;
+    left: 25px;
+    top: 6px;
+    height: 80px;
+    width: 80px;
+}
+
+@media screen and (max-width: 375px) {
+    .librarylogo {
+        position: absolute;
+        left: -1px;
+        top: 1px;
+        height: 50px;
+        width: 50px;
+    }
+    
+}
+
+.options {
+    position: relative; 
+    top: 40px;
+    left: 32px;
+    font-family: 'Mate', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+ 
+}
+
+@media screen and (max-width: 375px) {
+    .options {
+        position: relative;
+        left: 1px;
+        top: 1px;
+        font-size: 10px;
+    }
+}
+
+.searchtext {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    right: 108px;
+    top: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 375px) {
+    .searchtext {
+        position: relative;
+        left: -83px;
+        top: 55px;
+        font-size: 12px;
+    }
+}
+
+.searchbuttons {
+    float: right;
+    position: absolute;
+    left: 870px;
+    top: 46px;
+}
+
+@media screen and (max-width: 375px) {
+    .searchbuttons {
+        position: relative;
+        left: -100px;
+        top: -62px;
+        
+    }
+}
+
+.title {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: -122px;
+    top: 25px;
+    background: #D9D9D9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media screen and (max-width: 375px) {
+    .title {
+        position: relative;
+        left: 20px;
+        width: 60px;
+        height: 20px;
+    }
+}
+
+.isbn {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 18px;
+    top: 25px;
+    background: #D9D9D9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+   
+}
+
+@media screen and (max-width: 375px) {
+    .isbn {
+        position: relative;
+        left: 20px;
+        width: 60px;
+        height: 20px;
+    }
+}
+
+.dropdowns {
+    position: absolute;
+    left: 2px;
+    top: -9px;
+}
+
+@media screen and (max-width: 375px) {
+    .dropdowns {
+        position: relative;
+        left: -890px;
+        top: -70px;
+    }
+}
+
+#format {
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: 1024px;
+    top: 80px;
+    font-family: 'Inter', sans-serif;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+@media screen and (max-width: 375px) {
+    #format {
+        position: relative;
+        
+        width: 75px;
+        height: 20px;
+    }
+}
+
+#genre {
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: 1114px;
+    top: 80px;
+    font-family: 'Inter', sans-serif;
+    background: #D9D9D9;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+@media screen and (max-width: 375px) {
+    #genre {
+        width: 67px;
+        height: 20px;
+    }
+}
+
+h1 {
+position: absolute;
+width: 283px;
+height: 36px;
+left: 250px;
+top: 40px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+}
+
+@media screen and (max-width: 375px) {
+
+    h1 {
+        position: absolute;
+        width: 283px;
+        height: 36px;
+        left: 100px;
+        top: 80px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+        }
+}
+
+h2 {
+    position: absolute;
+    top: 120px;
+    left: 284px;
+    width: 201px;
+    height: 36px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+@media screen and (max-width: 375px) {
+
+    h2 {
+        position: absolute;
+        top: 120px;
+        left: 130px;
+        width: 201px;
+        height: 36px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+    
+    }
+}
+
+.profilepic {
+    position: absolute;
+    top: 180px;
+    left: 240px;
+    border-radius: 100.121px;
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    .profilepic {
+        position: absolute;
+        top: 180px;
+        left: 80px;
+        border-radius: 100.121px;
+        width: 200px;
+        height: 200px;
+        
+    }
+}
+
+.profileinfo {
+    position: absolute;
+    left: 520px;
+    top: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .profileinfo {
+        position: absolute;
+        left: 60px;
+        top: 388px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+    
+    }
+    
+}
+
+.pencil {
+    position: absolute;
+    left: 754px;
+    top: 210px;
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .pencil {
+        position: absolute;
+        left: 230px;
+        top: 400px;
+        width: 10px;
+        height: 10px;
+    }
+    
+}
+
+.pencil2 {
+    position: absolute;
+    left: 784px;
+    top: 274px;
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .pencil2 {
+        position: absolute;
+        left: 254px;
+        top: 434px;
+        width: 10px;
+        height: 10px;
+    }
+    
+}
+
+#pgenres {
+    position: absolute;
+    width: 113px;
+    height: 18px;
+    left: 610px;
+    top: 401px;
+    font-family: 'Tahoma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #2477D9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-width: 0px;
+
+}
+
+@media screen and (max-width: 375px) {
+
+    #pgenres {
+        position: absolute;
+        width: 96px;
+        height: 18px;
+        left: 118px;
+        top: 508px;
+        font-family: 'Tahoma';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        text-decoration-line: underline;
+        color: #2477D9;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-width: 0px;
+    
+    }
+    
+}
+
+.updateimage {
+position: absolute;
+width: 69px;
+height: 13px;
+left: 340px;
+top: 440px;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+display: flex;
+align-items: flex-end;
+text-decoration-line: underline;
+color: #2477D9;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 375px) {
+
+    .updateimage {
+        position: absolute;
+        width: 69px;
+        height: 13px;
+        left: 160px;
+        top: 380px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 13px;
+        display: flex;
+        align-items: flex-end;
+        text-decoration-line: underline;
+        color: #2477D9;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        
+}
+
+.returns {
+position: absolute;
+width: 230px;
+height: 36px;
+left: 270px;
+top: 440px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+}
+
+@media screen and (max-width: 375px) {
+
+
+.returns {
+    position: absolute;
+    width: 230px;
+    height: 36px;
+    left: 70px;
+    top: 530px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    }
+}
+
+.returnedbooks {
+    position: absolute;
+    top: 510px;
+    left: 265px;
+    height: 178px;
+    width: 500px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .returnedbooks {
+        position: absolute;
+        top: 580px;
+        left: 6px;
+        height: 150px;
+        width: 280px;
+    }
+    
+}
+
+.favorites {
+position: absolute;
+width: 201px;
+height: 36px;
+left: 840px;
+top: 120px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .favorites {
+        position: absolute;
+        width: 201px;
+        height: 36px;
+        left: 98px;
+        top: 730px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 36px;
+        }
+        
+}
+
+.book1 {
+    position: absolute;
+    left: 850px;
+    top: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .book1 {
+        position: absolute;
+        left: 50px;
+        top: 790px;
+        height: 120px;
+    }
+    
+}
+
+.book2 {
+    position: absolute;
+    left: 1020px;
+    top: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .book2 {
+        position: absolute;
+        left: 150px;
+        top: 790px;
+        height: 120px;
+    }
+    
+}
+
+.book3 {
+    position: absolute;
+    left: 850px;
+    top: 440px;
+    height: 200px;
+}
+
+@media screen and (max-width: 375px) {
+
+
+.book3 {
+    position: absolute;
+    left: 50px;
+    top: 944px;
+    height: 120px;
+}
+
+}
+
+.book4 {
+    position: absolute;
+    left: 1020px;
+    top: 440px;
+    height: 200px;
+}
+
+@media screen and (max-width: 375px) {
+    .book4 {
+        position: absolute;
+        left: 150px;
+        top: 944px;
+        height: 120px;
+    }
+}
+
+.checkout {
+    position: absolute;
+    width: 90px;
+    height: 22px;
+    left: 874px;
+    top: 408px;
+    background: #246D2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+
+    @media screen and (max-width: 375px) {
+
+        .checkout {
+            position: absolute;
+            width: 68px;
+            height: 14px;
+            left: 55px;
+            top: 916px;
+            background: #246D2B;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 17px;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 10px;
+            color: #FFFFFF;
+            text-align: center;
+            }
+        
+    }
+
+    .checkout2 {
+        position: absolute;
+        width: 90px;
+        height: 22px;
+        left: 1046px;
+        top: 408px;
+        background: #246D2B;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 17px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-align: center;
+        }
+
+        @media screen and (max-width: 375px) {
+
+            .checkout2 {
+                position: absolute;
+                width: 68px;
+                height: 14px;
+                left: 155px;
+                top: 916px;
+                background: #246D2B;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 17px;
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 10px;
+                color: #FFFFFF;
+                text-align: center;
+                }
+        
+        }
+
+        .checkout3 {
+            position: absolute;
+            width: 90px;
+            height: 22px;
+            left: 1046px;
+            top: 650px;
+            background: #246D2B;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 17px;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 19px;
+            color: #FFFFFF;
+            text-align: center;
+            }
+
+            @media screen and (max-width: 375px) {
+
+                .checkout3 {
+                    position: absolute;
+                    width: 68px;
+                    height: 14px;
+                    left: 155px;
+                    top: 1070px;
+                    background: #246D2B;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 17px;
+                    font-family: 'Inter', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 10px;
+                    color: #FFFFFF;
+                    text-align: center;
+                    }
+            }
+
+            .checkout4 {
+                position: absolute;
+                width: 90px;
+                height: 22px;
+                left: 880px;
+                top: 652px;
+                background: #246D2B;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 17px;
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 19px;
+                color: #FFFFFF;
+                text-align: center;
+                }
+
+                @media screen and (max-width: 375px) {
+
+                    .checkout4 {
+                        position: absolute;
+                        width: 68px;
+                        height: 14px;
+                        left: 55px;
+                        top: 1070px;
+                        background: #246D2B;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 17px;
+                        font-family: 'Inter', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 10px;
+                        color: #FFFFFF;
+                        text-align: center;
+                        }
+        
+                }

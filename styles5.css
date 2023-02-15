@@ -1,0 +1,717 @@
+body {
+    margin: 0;
+    
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        margin: 0;
+    }
+}
+
+.topnavigation {
+    background-color: #D9D9D9;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .topnavigation {
+        background-color:rgb(229, 136, 136);
+        overflow: hidden;
+        margin-top: 0px;
+    }
+}
+
+.topnavigation a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: black
+}
+
+@media screen and (max-width: 375px) {
+    .topnavigation a {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 30px;
+        color: black;
+        float: left;
+    }
+}
+
+.searchicon {
+    position: relative;
+    left: 1226px;
+    top: -27px;
+    height: 20px;
+    width: 30px;
+}
+
+@media screen and (max-width: 375px) {
+    .searchicon {
+    position: relative;
+    left: 290px;
+    bottom: 26px;
+    height: 20px;
+    width: 23px;
+}
+}
+
+.location {
+    position: absolute;
+    left: 750px;
+}
+@media screen and (max-width: 375px) {
+    .location {
+        position: relative;
+        left: 54px;
+        
+    }
+}
+
+.events {
+    position: absolute;
+    left: 856px;
+}
+
+@media screen and (max-width: 375px) {
+    .events {
+        position: relative;
+        left: 60px;
+    }
+}
+
+.aboutus {
+    position: absolute;
+    left: 942px;
+}
+
+@media screen and (max-width: 375px) {
+    .aboutus {
+        position: relative;
+        left: 68px;
+    }
+}
+
+.sign {
+    position: relative;
+    left: 1056px;
+}
+
+@media screen and (max-width: 375px) {
+    .sign {
+        position: relative;
+        left: 72px;
+    }
+}
+
+.librarylogo {
+    position: absolute;
+    left: 25px;
+    top: 6px;
+    height: 80px;
+    width: 80px;
+}
+
+@media screen and (max-width: 375px) {
+    .librarylogo {
+        position: absolute;
+        left: -1px;
+        top: 1px;
+        height: 50px;
+        width: 50px;
+    }
+    
+}
+
+.options {
+    position: relative; 
+    top: 40px;
+    left: 32px;
+    font-family: 'Mate', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+ 
+}
+
+@media screen and (max-width: 375px) {
+    .options {
+        position: relative;
+        left: 1px;
+        top: 1px;
+        font-size: 10px;
+    }
+}
+
+.searchtext {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    right: 108px;
+    top: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 375px) {
+    .searchtext {
+        position: relative;
+        left: -83px;
+        top: 55px;
+        font-size: 12px;
+    }
+}
+
+.searchbuttons {
+    float: right;
+    position: absolute;
+    left: 870px;
+    top: 46px;
+}
+
+@media screen and (max-width: 375px) {
+    .searchbuttons {
+        position: relative;
+        left: -100px;
+        top: -62px;
+        
+    }
+}
+
+.title {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: -122px;
+    top: 25px;
+    background: #D9D9D9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+@media screen and (max-width: 375px) {
+    .title {
+        position: relative;
+        left: 20px;
+        width: 60px;
+        height: 20px;
+    }
+}
+
+.isbn {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 18px;
+    top: 25px;
+    background: #D9D9D9;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+   
+}
+
+@media screen and (max-width: 375px) {
+    .isbn {
+        position: relative;
+        left: 20px;
+        width: 60px;
+        height: 20px;
+    }
+}
+
+.dropdowns {
+    position: absolute;
+    left: 2px;
+    top: -9px;
+}
+
+@media screen and (max-width: 375px) {
+    .dropdowns {
+        position: relative;
+        left: -890px;
+        top: -70px;
+    }
+}
+
+#format {
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: 1024px;
+    top: 80px;
+    font-family: 'Inter', sans-serif;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+@media screen and (max-width: 375px) {
+    #format {
+        position: relative;
+        
+        width: 75px;
+        height: 20px;
+    }
+}
+
+#genre {
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    left: 1114px;
+    top: 80px;
+    font-family: 'Inter', sans-serif;
+    background: #D9D9D9;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+@media screen and (max-width: 375px) {
+    #genre {
+        width: 67px;
+        height: 20px;
+    }
+}
+
+.bookcover {
+    position: absolute;
+    left: 300px;
+    height: 400px;
+    top: 140px;
+}
+
+@media screen and (max-width: 375px) {
+    .bookcover {
+        position: absolute;
+        left: 96px;
+        height: 310px;
+        top: 130px;
+    }
+    }
+
+.checkout {
+    position: absolute;
+    width: 190px;
+    height: 42px;
+    left: 340px;
+    top: 608px;
+    background: #246D2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+
+@media screen and (max-width: 375px) {
+
+    .checkout {
+        position: absolute;
+        width: 150px;
+        height: 40px;
+        left: 126px;
+        top: 480px;
+        background: #246D2B;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 17px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-align: center;
+        }
+}
+
+.rating {
+position: absolute;
+width: 60px;
+height: 27px;
+left: 340px;
+top: 526px;
+font-family: 'Tiro Devanagari Hindi';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .rating {
+        position: absolute;
+        width: 60px;
+        height: 27px;
+        left: 110px;
+        top: 425px;
+        font-family: 'Tiro Devanagari Hindi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 27px;
+        }
+}
+
+.stars {
+        position: absolute;
+        left: 400px;
+        top: 550px;
+    }
+
+@media screen and (max-width: 375px) {
+
+    .stars {
+        position: absolute;
+        left: 170px;
+        top: 446px;
+    }
+}
+    
+.star4 {
+    position: absolute;
+    left: 71px;
+    bottom: 2px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .star4 {
+        position: absolute;
+        left: 71px;
+        bottom: 2px;
+    }
+    
+}
+
+.star5 {
+    position: absolute;
+    left: 97px;
+    bottom: 3.5px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .star5 {
+        position: absolute;
+        left: 97px;
+        bottom: 3.5px;
+    }
+}
+
+.bookinfo {
+    position: absolute;
+    left: 650px;
+    top: 110px;
+    width: 310px;
+    height: 49px;
+    font-family: 'Mandali';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .bookinfo {
+        position: absolute;
+        left: 56px;
+        top: 530px;
+        width: 310px;
+        height: 49px;
+        font-family: 'Mandali';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+.summary {
+position: absolute;
+width: 133px;
+height: 35px;
+left: 650px;
+top: 280px;
+font-family: 'Tienne';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 35px;
+}
+
+@media screen and (max-width: 375px) {
+
+
+.summary {
+    position: absolute;
+    width: 133px;
+    height: 35px;
+    left: 128px;
+    top: 680px;
+    font-family: 'Tienne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    }
+}
+
+.paragraph1 {
+position: absolute;
+width: 600px;
+height: 215px;
+left: 650px;
+top: 324px;
+font-family: 'Merge One';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 31px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .paragraph1 {
+        position: absolute;
+        width: 308px;
+        height: 215px;
+        left: 8px;
+        top: 710px;
+        font-family: 'Merge One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 31px;
+        text-align: center;
+        }
+}
+
+.readmore {
+position: absolute;
+width: 115px;
+height: 27px;
+left: 770px;
+top: 467px;
+font-family: 'Tienne';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 27px;
+text-decoration-line: underline;
+color: #1865D9;
+}
+
+@media screen and (max-width: 375px) {
+
+
+.readmore {
+    position: absolute;
+    width: 115px;
+    height: 27px;
+    left: 220px;
+    top: 976px;
+    font-family: 'Tienne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #1865D9;
+    }
+}
+
+.reviews {
+position: absolute;
+width: 114px;
+height: 35px;
+left: 650px;
+top: 470px;
+font-family: 'Tienne';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 35px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .reviews {
+        position: absolute;
+        width: 114px;
+        height: 35px;
+        left: 134px;
+        top: 990px;
+        font-family: 'Tienne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 35px;
+        }
+        
+}
+
+.paragraph2 {
+position: absolute;
+width: 600px;
+height: 100px;
+left: 652px;
+top: 510px;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 33px;
+}
+
+@media screen and (max-width: 375px) {
+
+    .paragraph2 {
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        left: 16px;
+        top: 1020px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 33px;
+        
+        }
+        
+}
+
+.paragraph3 {
+position: absolute;
+width: 600px;
+height: 100px;
+left: 652px;
+top: 572px;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 33px;
+}
+
+@media screen and (max-width: 375px) {
+
+
+.paragraph3 {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 16px;
+    top: 1170px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 33px;
+    }
+    
+}
+
+.readmore2 {
+    position: absolute;
+    width: 115px;
+    height: 27px;
+    left: 1090px;
+    top: 562px;
+    font-family: 'Tienne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #1865D9;
+    }
+
+    @media screen and (max-width: 375px) {
+
+        .readmore2 {
+            position: absolute;
+            width: 115px;
+            height: 27px;
+            left: 139px;
+            top: 1137px;
+            font-family: 'Tienne';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 27px;
+            text-decoration-line: underline;
+            color: #1865D9;
+            }
+        
+    }
+
+.readmore3 {
+        position: absolute;
+        width: 115px;
+        height: 27px;
+        left: 1162px;
+        top: 624px;
+        font-family: 'Tienne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 27px;
+        text-decoration-line: underline;
+        color: #1865D9;
+        }
+
+        @media screen and (max-width: 375px) {
+
+            .readmore3 {
+                position: absolute;
+                width: 84px;
+                height: 27px;
+                left: 253px;
+                top: 1289px;
+                font-family: 'Tienne';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 27px;
+                text-decoration-line: underline;
+                color: #1865D9;
+                }
+        }
