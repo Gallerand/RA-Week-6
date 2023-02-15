@@ -3,7 +3,11 @@ body {
     
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     body {
         margin: 0;
     }
@@ -15,7 +19,11 @@ body {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
@@ -33,7 +41,11 @@ body {
     color: black
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -54,7 +66,11 @@ body {
     width: 30px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .searchicon {
     position: relative;
     left: 292px;
@@ -68,7 +84,11 @@ body {
     position: absolute;
     left: 750px;
 }
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .location {
         position: relative;
         left: 52px;
@@ -81,7 +101,11 @@ body {
     left: 856px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .events {
         position: relative;
         left: 60px;
@@ -93,7 +117,11 @@ body {
     left: 942px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .aboutus {
         position: relative;
         left: 70px;
@@ -105,7 +133,11 @@ body {
     left: 1056px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .sign {
         position: relative;
         left: 86px;
@@ -120,7 +152,11 @@ body {
     width: 80px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .librarylogo {
         position: absolute;
         left: -1px;
@@ -141,8 +177,11 @@ body {
     font-size: 18px;
  
 }
-
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .options {
         position: relative;
         left: 1px;
@@ -164,7 +203,11 @@ body {
     line-height: 60px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .peadmount {
         position: relative;
         width: 280px;
@@ -190,7 +233,11 @@ line-height: 30px;
 color: #000000;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .ptext {
         position: relative;
         width: 218px;
@@ -214,7 +261,11 @@ color: #000000;
     line-height: 60px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .mission {
         position: relative;
         width: 280px;
@@ -240,7 +291,11 @@ line-height: 30px;
 color: #000000;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .ptext1 {
         position: relative;
         width: 280px;
@@ -264,7 +319,11 @@ color: #000000;
     line-height: 60px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .why {
         position: relative;
         width: 280px;
@@ -290,7 +349,11 @@ color: #000000;
     color: #000000;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .ptext2 {
         position: relative;
         width: 280px;
@@ -311,7 +374,11 @@ color: #000000;
     border-radius: 40px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .study {
     position: relative;
     bottom: 200px;

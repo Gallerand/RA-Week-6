@@ -3,11 +3,26 @@ body {
     
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     body {
         margin: 0;
+        
     }
 }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    body {
+    margin: 0;
+}
+  }
 
 .topnavigation {
     background-color: #D9D9D9;
@@ -15,7 +30,11 @@ body {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
@@ -33,13 +52,17 @@ body {
     color: black
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         text-decoration: none;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 10px;
         line-height: 30px;
         color: black;
         float: left;
@@ -54,7 +77,11 @@ body {
     width: 30px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .searchicon {
     position: relative;
     left: 268px;
@@ -68,7 +95,11 @@ body {
     position: absolute;
     left: 750px;
 }
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .location {
         position: relative;
         left: 52px;
@@ -81,7 +112,11 @@ body {
     left: 856px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .events {
         position: relative;
         left: 56px;
@@ -93,7 +128,11 @@ body {
     left: 942px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .aboutus {
         position: relative;
         left: 60px;
@@ -105,7 +144,11 @@ body {
     left: 1056px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .sign {
         position: relative;
         left: 66px;
@@ -120,7 +163,11 @@ body {
     width: 80px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .librarylogo {
         position: absolute;
         left: -1px;
@@ -142,7 +189,11 @@ body {
  
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .options {
         position: relative;
         left: 1px;
@@ -164,7 +215,11 @@ body {
     line-height: 24px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .searchtext {
         position: relative;
         left: -83px;
@@ -180,7 +235,11 @@ body {
     top: 46px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .searchbuttons {
         position: relative;
         left: -100px;
@@ -206,7 +265,11 @@ body {
     line-height: 19px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .title {
         position: relative;
         left: 20px;
@@ -233,7 +296,11 @@ body {
    
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .isbn {
         position: relative;
         left: 20px;
@@ -248,7 +315,11 @@ body {
     top: -9px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .dropdowns {
         position: relative;
         left: -890px;
@@ -272,7 +343,11 @@ body {
 
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     #format {
         position: relative;
         
@@ -297,7 +372,11 @@ body {
 
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     #genre {
         width: 67px;
         height: 20px;
@@ -317,7 +396,11 @@ body {
     line-height: 61px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .firstheader {
         position: relative;
         width: 100%;
@@ -346,7 +429,11 @@ body {
     line-height: 19px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .paragraph {
         position: relative;
         width: 220px;
@@ -373,7 +460,11 @@ body {
   
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .books {
         position: relative;
         left: 14px;
@@ -393,7 +484,11 @@ body {
     border-radius: 52px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .kids {
         position: relative;
         left: 14px;
@@ -423,7 +518,11 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .student {
         position: relative;
         left: 70px;
@@ -454,7 +553,11 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .students {
         position: relative;
         left: 70px;
@@ -487,7 +590,11 @@ body {
     
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .kidsprograms {
         position: relative;
         left: 70px;

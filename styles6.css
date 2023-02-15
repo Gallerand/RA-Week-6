@@ -3,7 +3,11 @@ body {
     
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     body {
         margin: 0;
     }
@@ -15,7 +19,11 @@ body {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
@@ -33,7 +41,11 @@ body {
     color: black
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -54,7 +66,11 @@ body {
     width: 30px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .searchicon {
     position: relative;
     left: 310px;
@@ -68,7 +84,11 @@ body {
     position: absolute;
     left: 750px;
 }
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .location {
         position: relative;
         left: 62px;
@@ -81,7 +101,11 @@ body {
     left: 856px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .events {
         position: relative;
         left: 72px;
@@ -93,7 +117,11 @@ body {
     left: 942px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .aboutus {
         position: relative;
         left: 82px;
@@ -105,7 +133,11 @@ body {
     left: 1056px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .sign {
         position: relative;
         left: 92px;
@@ -120,7 +152,11 @@ body {
     width: 80px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .librarylogo {
         position: absolute;
         left: -1px;
@@ -142,7 +178,11 @@ body {
  
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .options {
         position: relative;
         left: 1px;
@@ -164,7 +204,11 @@ body {
     line-height: 24px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .searchtext {
         position: relative;
         left: -83px;
@@ -180,7 +224,11 @@ body {
     top: 46px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .searchbuttons {
         position: relative;
         left: -100px;
@@ -206,7 +254,11 @@ body {
     line-height: 19px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .title {
         position: relative;
         left: 20px;
@@ -233,7 +285,11 @@ body {
    
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .isbn {
         position: relative;
         left: 20px;
@@ -248,7 +304,11 @@ body {
     top: -9px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .dropdowns {
         position: relative;
         left: -890px;
@@ -272,7 +332,11 @@ body {
 
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     #format {
         position: relative;
         
@@ -297,7 +361,11 @@ body {
 
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     #genre {
         width: 67px;
         height: 20px;
@@ -312,7 +380,11 @@ width: 300px;
 height: 300px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
 
 
 .circle {
@@ -332,7 +404,11 @@ width: 190.67px;
 height: 173.33px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .camera {
         position: absolute;
         left: 116px;
@@ -358,7 +434,11 @@ color: #FFFFFF;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
 
     .upload {
         position: absolute;
@@ -391,7 +471,11 @@ line-height: 61px;
 color: #742C2C;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .welcome {
         position: absolute;
         width: 300px;
@@ -421,7 +505,11 @@ line-height: 61px;
 color: #ED907F;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .lets {
         position: absolute;
         width: 600px;
@@ -451,7 +539,11 @@ line-height: 61px;
 color: #984F1F;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .create {
         position: absolute;
         width: 466px;
@@ -474,7 +566,11 @@ color: #984F1F;
     top: 340px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .registerform {
         position: absolute;
         left: 5px;
@@ -487,7 +583,11 @@ fieldset {
     border: none;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     fieldset {
         border: none;
     }
@@ -502,7 +602,11 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .fullname {
         width: 294px;
         height: 22px;
@@ -521,7 +625,11 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .email {
         width: 294px;
         height: 22px;
@@ -540,7 +648,11 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .phone {
         width: 294px;
         height: 22px;
@@ -558,7 +670,11 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .address {
         width: 294px;
         height: 22px;
@@ -583,7 +699,11 @@ border: none;
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .registerbutton {
         width: 170px;
         height: 28px;
@@ -613,7 +733,11 @@ font-size: 12px;
 line-height: 14px;
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .already {
         position: absolute;
         width: 106px;
@@ -644,7 +768,11 @@ color: #2477D9;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media screen and (max-width: 375px) {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .lastsignin {
         position: absolute;
         width: 38px;
