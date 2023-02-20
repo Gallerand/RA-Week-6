@@ -1,17 +1,15 @@
 body {
     margin: 0;
+    overflow-x: hidden;
     
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     body {
         margin: 0;
-    }
+        overflow-x: hidden;
 }
+  }
 
 .topnavigation {
     background-color: #D9D9D9;
@@ -19,11 +17,7 @@ body {
     margin-top: 20px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
@@ -41,20 +35,16 @@ body {
     color: black
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         text-decoration: none;
         font-weight: 400;
-        font-size: 13px;
+        font-size: 10px;
         line-height: 30px;
         color: black;
-        float: left;
+        z-index: 1;
     }
 }
 
@@ -66,14 +56,10 @@ body {
     width: 30px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .searchicon {
     position: relative;
-    left: 292px;
+    left: 330px;
     bottom: 26px;
     height: 20px;
     width: 23px;
@@ -84,11 +70,8 @@ body {
     position: absolute;
     left: 750px;
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+
+@media only screen and (max-width: 375px) {
     .location {
         position: relative;
         left: 52px;
@@ -101,14 +84,10 @@ body {
     left: 856px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .events {
         position: relative;
-        left: 60px;
+        left: 56px;
     }
 }
 
@@ -117,14 +96,10 @@ body {
     left: 942px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .aboutus {
         position: relative;
-        left: 70px;
+        left: 60px;
     }
 }
 
@@ -133,14 +108,10 @@ body {
     left: 1056px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) { 
     .sign {
         position: relative;
-        left: 86px;
+        left: 66px;
     }
 }
 
@@ -152,11 +123,7 @@ body {
     width: 80px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .librarylogo {
         position: absolute;
         left: -1px;
@@ -177,15 +144,12 @@ body {
     font-size: 18px;
  
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+
+@media only screen and (max-width: 375px) {
     .options {
         position: relative;
         left: 1px;
-        top: 20px;
+        top: 1px;
         font-size: 10px;
     }
 }
@@ -203,11 +167,7 @@ body {
     line-height: 60px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .peadmount {
         position: relative;
         width: 280px;
@@ -233,11 +193,7 @@ line-height: 30px;
 color: #000000;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .ptext {
         position: relative;
         width: 218px;
@@ -261,11 +217,7 @@ color: #000000;
     line-height: 60px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .mission {
         position: relative;
         width: 280px;
@@ -291,11 +243,7 @@ line-height: 30px;
 color: #000000;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .ptext1 {
         position: relative;
         width: 280px;
@@ -319,11 +267,7 @@ color: #000000;
     line-height: 60px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .why {
         position: relative;
         width: 280px;
@@ -349,11 +293,7 @@ color: #000000;
     color: #000000;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .ptext2 {
         position: relative;
         width: 280px;
@@ -374,11 +314,7 @@ color: #000000;
     border-radius: 40px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .study {
     position: relative;
     bottom: 200px;
@@ -388,4 +324,3 @@ color: #000000;
     object-fit: contain or cover;
     }
 }
-

@@ -1,15 +1,13 @@
 body {
     margin: 0;
+    overflow-x: hidden;
     
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     body {
         margin: 0;
+        overflow-x: hidden;
     }
 }
 
@@ -19,11 +17,7 @@ body {
     margin-top: 20px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
@@ -41,11 +35,7 @@ body {
     color: black
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) { 
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -55,6 +45,7 @@ body {
         line-height: 30px;
         color: black;
         float: left;
+        z-index: 1;
     }
 }
 
@@ -66,14 +57,10 @@ body {
     width: 30px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .searchicon {
     position: relative;
-    left: 310px;
+    left: 330px;
     bottom: 26px;
     height: 20px;
     width: 23px;
@@ -84,11 +71,8 @@ body {
     position: absolute;
     left: 750px;
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+
+@media only screen and (max-width: 375px) {
     .location {
         position: relative;
         left: 62px;
@@ -101,11 +85,7 @@ body {
     left: 856px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .events {
         position: relative;
         left: 72px;
@@ -117,11 +97,7 @@ body {
     left: 942px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .aboutus {
         position: relative;
         left: 82px;
@@ -133,11 +109,7 @@ body {
     left: 1056px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .sign {
         position: relative;
         left: 92px;
@@ -152,11 +124,7 @@ body {
     width: 80px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .librarylogo {
         position: absolute;
         left: -1px;
@@ -178,11 +146,7 @@ body {
  
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .options {
         position: relative;
         left: 1px;
@@ -204,14 +168,10 @@ body {
     line-height: 24px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .searchtext {
         position: relative;
-        left: -83px;
+        left: -73px;
         top: 55px;
         font-size: 12px;
     }
@@ -224,11 +184,7 @@ body {
     top: 46px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) { 
     .searchbuttons {
         position: relative;
         left: -100px;
@@ -254,11 +210,7 @@ body {
     line-height: 19px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .title {
         position: relative;
         left: 20px;
@@ -285,11 +237,7 @@ body {
    
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .isbn {
         position: relative;
         left: 20px;
@@ -304,11 +252,7 @@ body {
     top: -9px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .dropdowns {
         position: relative;
         left: -890px;
@@ -332,11 +276,7 @@ body {
 
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     #format {
         position: relative;
         
@@ -361,11 +301,7 @@ body {
 
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     #genre {
         width: 67px;
         height: 20px;
@@ -380,11 +316,7 @@ width: 300px;
 height: 300px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
 
 .circle {
@@ -404,11 +336,7 @@ width: 190.67px;
 height: 173.33px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) { 
     .camera {
         position: absolute;
         left: 116px;
@@ -434,11 +362,7 @@ color: #FFFFFF;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
     .upload {
         position: absolute;
@@ -471,11 +395,7 @@ line-height: 61px;
 color: #742C2C;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .welcome {
         position: absolute;
         width: 300px;
@@ -505,11 +425,7 @@ line-height: 61px;
 color: #ED907F;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) { 
     .lets {
         position: absolute;
         width: 600px;
@@ -539,11 +455,7 @@ line-height: 61px;
 color: #984F1F;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .create {
         position: absolute;
         width: 466px;
@@ -566,11 +478,7 @@ color: #984F1F;
     top: 340px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .registerform {
         position: absolute;
         left: 5px;
@@ -583,11 +491,7 @@ fieldset {
     border: none;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     fieldset {
         border: none;
     }
@@ -602,11 +506,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .fullname {
         width: 294px;
         height: 22px;
@@ -625,11 +525,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .email {
         width: 294px;
         height: 22px;
@@ -648,11 +544,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .phone {
         width: 294px;
         height: 22px;
@@ -670,11 +562,7 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) { 
     .address {
         width: 294px;
         height: 22px;
@@ -699,11 +587,7 @@ border: none;
     color: #FFFFFF;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .registerbutton {
         width: 170px;
         height: 28px;
@@ -733,11 +617,7 @@ font-size: 12px;
 line-height: 14px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .already {
         position: absolute;
         width: 106px;
@@ -768,11 +648,7 @@ color: #2477D9;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .lastsignin {
         position: absolute;
         width: 38px;

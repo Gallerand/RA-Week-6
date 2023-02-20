@@ -1,15 +1,13 @@
 body {
     margin: 0;
+    overflow-x: hidden;
     
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     body {
         margin: 0;
+        overflow-x: hidden;
     }
 }
 
@@ -19,11 +17,7 @@ body {
     margin-top: 20px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
@@ -41,11 +35,7 @@ body {
     color: black
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
@@ -55,6 +45,7 @@ body {
         line-height: 30px;
         color: black;
         float: left;
+        z-index: 1;
     }
 }
 
@@ -66,14 +57,10 @@ body {
     width: 30px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .searchicon {
     position: relative;
-    left: 290px;
+    left: 330px;
     bottom: 26px;
     height: 20px;
     width: 23px;
@@ -84,11 +71,8 @@ body {
     position: absolute;
     left: 750px;
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+
+@media only screen and (max-width: 375px) {
     .location {
         position: relative;
         left: 54px;
@@ -101,11 +85,7 @@ body {
     left: 856px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .events {
         position: relative;
         left: 60px;
@@ -117,11 +97,7 @@ body {
     left: 942px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .aboutus {
         position: relative;
         left: 68px;
@@ -133,11 +109,7 @@ body {
     left: 1056px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .sign {
         position: relative;
         left: 72px;
@@ -152,11 +124,7 @@ body {
     width: 80px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .librarylogo {
         position: absolute;
         left: -1px;
@@ -178,11 +146,7 @@ body {
  
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .options {
         position: relative;
         left: 1px;
@@ -204,14 +168,10 @@ body {
     line-height: 24px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .searchtext {
         position: relative;
-        left: -83px;
+        left: -73px;
         top: 55px;
         font-size: 12px;
     }
@@ -224,11 +184,7 @@ body {
     top: 46px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .searchbuttons {
         position: relative;
         left: -100px;
@@ -254,11 +210,7 @@ body {
     line-height: 19px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .title {
         position: relative;
         left: 20px;
@@ -285,11 +237,7 @@ body {
    
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .isbn {
         position: relative;
         left: 20px;
@@ -304,11 +252,7 @@ body {
     top: -9px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .dropdowns {
         position: relative;
         left: -890px;
@@ -332,11 +276,7 @@ body {
 
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     #format {
         position: relative;
         
@@ -361,11 +301,7 @@ body {
 
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     #genre {
         width: 67px;
         height: 20px;
@@ -379,11 +315,7 @@ body {
     top: 140px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
     .bookcover {
         position: absolute;
         left: 96px;
@@ -410,11 +342,7 @@ body {
     text-align: center;
     }
 
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 812px) 
-    and (-webkit-min-device-pixel-ratio: 3)
-    and (orientation: portrait) { 
+    @media only screen and (max-width: 375px) {
 
     .checkout {
         position: absolute;
@@ -448,11 +376,7 @@ font-size: 20px;
 line-height: 27px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
     .rating {
         position: absolute;
@@ -474,11 +398,7 @@ line-height: 27px;
         top: 550px;
     }
 
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 812px) 
-    and (-webkit-min-device-pixel-ratio: 3)
-    and (orientation: portrait) { 
+    @media only screen and (max-width: 375px) {
 
     .stars {
         position: absolute;
@@ -493,11 +413,7 @@ line-height: 27px;
     bottom: 2px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
     .star4 {
         position: absolute;
@@ -513,11 +429,7 @@ line-height: 27px;
     bottom: 3.5px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
     .star5 {
         position: absolute;
@@ -539,11 +451,7 @@ line-height: 27px;
     line-height: 24px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
     .bookinfo {
         position: absolute;
@@ -572,11 +480,7 @@ font-size: 26px;
 line-height: 35px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
 
 .summary {
@@ -606,11 +510,7 @@ font-size: 17px;
 line-height: 31px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
     .paragraph1 {
         position: absolute;
@@ -642,11 +542,7 @@ text-decoration-line: underline;
 color: #1865D9;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
 
 .readmore {
@@ -678,11 +574,7 @@ font-size: 26px;
 line-height: 35px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
     .reviews {
         position: absolute;
@@ -712,11 +604,7 @@ font-size: 17px;
 line-height: 33px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
     .paragraph2 {
         position: absolute;
@@ -747,11 +635,7 @@ font-size: 17px;
 line-height: 33px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
+@media only screen and (max-width: 375px) {
 
 
 .paragraph3 {
@@ -784,11 +668,7 @@ line-height: 33px;
     color: #1865D9;
     }
 
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 812px) 
-    and (-webkit-min-device-pixel-ratio: 3)
-    and (orientation: portrait) { 
+    @media only screen and (max-width: 375px) {
 
         .readmore2 {
             position: absolute;
@@ -821,12 +701,8 @@ line-height: 33px;
         text-decoration-line: underline;
         color: #1865D9;
         }
-
-        @media only screen 
-        and (min-device-width: 375px) 
-        and (max-device-width: 812px) 
-        and (-webkit-min-device-pixel-ratio: 3)
-        and (orientation: portrait) { 
+        
+        @media only screen and (max-width: 375px) {
 
             .readmore3 {
                 position: absolute;
