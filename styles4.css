@@ -11,15 +11,6 @@ body {
     }
 }
 
-@media only screen and (min-width: 992px) {
-    body {
-        margin: 0;
-        overflow-x: hidden;
-        
-    }
-
-}
-
 .topnavigation {
     background-color: #D9D9D9;
     overflow: hidden;
@@ -32,15 +23,6 @@ body {
         overflow: hidden;
         margin-top: 0px;
     }
-}
-
-@media only screen and (min-width: 992px) {
-    .topnavigation {
-        background-color: #D9D9D9;
-        overflow: hidden;
-        margin-top: 20px;
-    }
-
 }
 
 .topnavigation a {
@@ -67,19 +49,6 @@ body {
     }
 }
 
-@media only screen and (min-width: 992px) {
-    .topnavigation a {
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        text-decoration: none;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        color: black
-    }
-
-}
-
 .searchicon {
     position: relative;
     left: 1226px;
@@ -98,17 +67,6 @@ body {
 }
 }
 
-@media only screen and (min-width: 992px) {
-    .searchicon {
-        position: relative;
-        left: 1226px;
-        top: -27px;
-        height: 20px;
-        width: 30px;
-    }
-
-}
-
 .location {
     position: absolute;
     left: 750px;
@@ -120,15 +78,6 @@ body {
         left: 52px;
         
     }
-}
-
-@media only screen and (min-width: 992px) {
-    .location {
-        position: absolute;
-        left: 750px;
-    }
-    
-
 }
 
 .events {
@@ -143,14 +92,6 @@ body {
     }
 }
 
-@media only screen and (min-width: 992px) {
-    .events {
-        position: absolute;
-        left: 856px;
-    }
-
-}
-
 .aboutus {
     position: absolute;
     left: 942px;
@@ -163,14 +104,6 @@ body {
     }
 }
 
-@media only screen and (min-width: 992px) {
-    .aboutus {
-        position: absolute;
-        left: 942px;
-    }
-
-}
-
 .sign {
     position: relative;
     left: 1056px;
@@ -181,14 +114,6 @@ body {
         position: relative;
         left: 66px;
     }
-}
-
-@media only screen and (min-width: 992px) {
-    .sign {
-        position: relative;
-        left: 1056px;
-    }
-
 }
 
 .librarylogo {
@@ -210,17 +135,6 @@ body {
     
 }
 
-@media only screen and (min-width: 992px) {
-    .librarylogo {
-        position: absolute;
-        left: 25px;
-        top: 6px;
-        height: 80px;
-        width: 80px;
-    }
-
-}
-
 .options {
     position: relative; 
     top: 40px;
@@ -239,20 +153,6 @@ body {
         top: 1px;
         font-size: 10px;
     }
-}
-
-@media only screen and (min-width: 992px) {
-    .options {
-        position: relative; 
-        top: 40px;
-        left: 32px;
-        font-family: 'Mate', serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-     
-    }
-
 }
 
 .searchtext {
@@ -277,22 +177,6 @@ body {
     }
 }
 
-@media only screen and (min-width: 992px) {
-    .searchtext {
-        position: absolute;
-        width: 140px;
-        height: 24px;
-        right: 108px;
-        top: 12px;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-}
-
 .searchbuttons {
     float: right;
     position: absolute;
@@ -307,16 +191,6 @@ body {
         top: -62px;
         
     }
-}
-
-@media only screen and (min-width: 992px) {
-    .searchbuttons {
-        float: right;
-        position: absolute;
-        left: 870px;
-        top: 46px;
-    }
-
 }
 
 .title {
@@ -343,26 +217,6 @@ body {
         width: 60px;
         height: 20px;
     }
-}
-
-@media only screen and (min-width: 992px) {
-    .title {
-        position: absolute;
-        width: 120px;
-        height: 25px;
-        left: -122px;
-        top: 25px;
-        background: #D9D9D9;
-        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        border-color: #D9D9D9;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-    }
-
 }
 
 .isbn {
@@ -392,27 +246,6 @@ body {
     }
 }
 
-@media only screen and (min-width: 992px) {
-    .isbn {
-        position: absolute;
-        width: 120px;
-        height: 25px;
-        left: 18px;
-        top: 25px;
-        background: #D9D9D9;
-        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 5px;
-        border-color: #D9D9D9;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-       
-    }
-
-}
-
 .dropdowns {
     position: absolute;
     left: 2px;
@@ -425,15 +258,6 @@ body {
         left: -890px;
         top: -70px;
     }
-}
-
-@media only screen and (min-width: 992px) {
-    .dropdowns {
-        position: absolute;
-        left: 2px;
-        top: -9px;
-    }
-
 }
 
 #format {
@@ -461,25 +285,6 @@ body {
     }
 }
 
-@media only screen and (min-width: 992px) {
-    #format {
-        position: absolute;
-        width: 80px;
-        height: 25px;
-        left: 1024px;
-        top: 80px;
-        font-family: 'Inter', sans-serif;
-        background: #D9D9D9;
-        border-radius: 5px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-    
-    }
-
-}
-
 #genre {
     position: absolute;
     width: 80px;
@@ -501,25 +306,6 @@ body {
         width: 67px;
         height: 20px;
     }
-}
-
-@media only screen and (min-width: 992px) {
-    #genre {
-        position: absolute;
-        width: 80px;
-        height: 25px;
-        left: 1114px;
-        top: 80px;
-        font-family: 'Inter', sans-serif;
-        background: #D9D9D9;
-        border-radius: 6px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-    
-    }
-
 }
 
 h1 {
@@ -549,22 +335,6 @@ line-height: 36px;
         font-size: 20px;
         line-height: 36px;
         }
-}
-
-@media only screen and (min-width: 992px) {
-    h1 {
-        position: absolute;
-        width: 283px;
-        height: 36px;
-        left: 250px;
-        top: 40px;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 36px;
-        }
-
 }
 
 h2 {
@@ -598,23 +368,6 @@ h2 {
     }
 }
 
-@media only screen and (min-width: 992px) {
-    h2 {
-        position: absolute;
-        top: 120px;
-        left: 284px;
-        width: 201px;
-        height: 36px;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 40px;
-    
-    }
-
-}
-
 .profilepic {
     position: absolute;
     top: 180px;
@@ -634,18 +387,6 @@ h2 {
         height: 200px;
         
     }
-}
-
-@media only screen and (min-width: 992px) {
-    .profilepic {
-        position: absolute;
-        top: 180px;
-        left: 240px;
-        border-radius: 100.121px;
-        
-    }
-    
-
 }
 
 .profileinfo {
@@ -674,20 +415,6 @@ h2 {
     
 }
 
-@media only screen and (min-width: 992px) {
-    .profileinfo {
-        position: absolute;
-        left: 520px;
-        top: 200px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 31px;
-    
-    }
-
-}
-
 .pencil {
     position: absolute;
     left: 754px;
@@ -708,17 +435,6 @@ h2 {
     
 }
 
-@media only screen and (min-width: 992px) {
-    .pencil {
-        position: absolute;
-        left: 754px;
-        top: 210px;
-        width: 20px;
-        height: 20px;
-    }
-
-}
-
 .pencil2 {
     position: absolute;
     left: 784px;
@@ -737,17 +453,6 @@ h2 {
         height: 10px;
     }
     
-}
-
-@media only screen and (min-width: 992px) {
-    .pencil2 {
-        position: absolute;
-        left: 784px;
-        top: 274px;
-        width: 20px;
-        height: 20px;
-    }
-
 }
 
 #pgenres {
@@ -790,27 +495,6 @@ h2 {
     
 }
 
-@media only screen and (min-width: 992px) {
-    #pgenres {
-        position: absolute;
-        width: 113px;
-        height: 18px;
-        left: 610px;
-        top: 401px;
-        font-family: 'Tahoma';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
-        text-decoration-line: underline;
-        color: #2477D9;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-width: 0px;
-    
-    }
-
-}
-
 .updateimage {
 position: absolute;
 width: 69px;
@@ -851,27 +535,6 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         
 }
 
-@media only screen and (min-width: 992px) {
-    .updateimage {
-        position: absolute;
-        width: 69px;
-        height: 13px;
-        left: 340px;
-        top: 440px;
-        font-family: 'Merriweather';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 13px;
-        display: flex;
-        align-items: flex-end;
-        text-decoration-line: underline;
-        color: #2477D9;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        }
-
-}
-
 .returns {
 position: absolute;
 width: 230px;
@@ -902,22 +565,6 @@ line-height: 36px;
     }
 }
 
-@media only screen and (min-width: 992px) {
-    .returns {
-        position: absolute;
-        width: 230px;
-        height: 36px;
-        left: 270px;
-        top: 440px;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 36px;
-        }
-
-}
-
 .returnedbooks {
     position: absolute;
     top: 510px;
@@ -936,17 +583,6 @@ line-height: 36px;
         width: 280px;
     }
     
-}
-
-@media only screen and (min-width: 992px) {
-    .returnedbooks {
-        position: absolute;
-        top: 510px;
-        left: 265px;
-        height: 178px;
-        width: 500px;
-    }
-
 }
 
 .favorites {
@@ -979,22 +615,6 @@ line-height: 36px;
         
 }
 
-@media only screen and (min-width: 992px) {
-    .favorites {
-        position: absolute;
-        width: 201px;
-        height: 36px;
-        left: 840px;
-        top: 120px;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 36px;
-        }
-
-}
-
 .book1 {
     position: absolute;
     left: 850px;
@@ -1013,16 +633,6 @@ line-height: 36px;
     
 }
 
-@media only screen and (min-width: 992px) {
-    .book1 {
-        position: absolute;
-        left: 850px;
-        top: 200px;
-        height: 200px;
-    }
-
-}
-
 .book2 {
     position: absolute;
     left: 1020px;
@@ -1039,16 +649,6 @@ line-height: 36px;
         height: 120px;
     }
     
-}
-
-@media only screen and (min-width: 992px) {
-    .book2 {
-        position: absolute;
-        left: 1020px;
-        top: 200px;
-        height: 200px;
-    }
-
 }
 
 .book3 {
@@ -1070,16 +670,6 @@ line-height: 36px;
 
 }
 
-@media only screen and (min-width: 992px) {
-    .book3 {
-        position: absolute;
-        left: 850px;
-        top: 440px;
-        height: 200px;
-    }
-
-}
-
 .book4 {
     position: absolute;
     left: 1020px;
@@ -1094,16 +684,6 @@ line-height: 36px;
         top: 944px;
         height: 120px;
     }
-}
-
-@media only screen and (min-width: 992px) {
-    .book4 {
-        position: absolute;
-        left: 1020px;
-        top: 440px;
-        height: 200px;
-    }
-
 }
 
 .checkout {
@@ -1146,27 +726,6 @@ line-height: 36px;
         
     }
 
-    @media only screen and (min-width: 992px) {
-        .checkout {
-            position: absolute;
-            width: 90px;
-            height: 22px;
-            left: 874px;
-            top: 408px;
-            background: #246D2B;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 17px;
-            font-family: 'Inter', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 10px;
-            line-height: 19px;
-            color: #FFFFFF;
-            text-align: center;
-            }
-
-    }
-
     .checkout2 {
         position: absolute;
         width: 90px;
@@ -1205,27 +764,6 @@ line-height: 36px;
                 text-align: center;
                 }
         
-        }
-
-        @media only screen and (min-width: 992px) {
-            .checkout2 {
-                position: absolute;
-                width: 90px;
-                height: 22px;
-                left: 1046px;
-                top: 408px;
-                background: #246D2B;
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border-radius: 17px;
-                font-family: 'Inter', sans-serif;
-                font-style: normal;
-                font-weight: 400;
-                font-size: 10px;
-                line-height: 19px;
-                color: #FFFFFF;
-                text-align: center;
-                }
-
         }
 
         .checkout3 {
@@ -1267,27 +805,6 @@ line-height: 36px;
                     }
             }
 
-            @media only screen and (min-width: 992px) {
-                .checkout3 {
-                    position: absolute;
-                    width: 90px;
-                    height: 22px;
-                    left: 1046px;
-                    top: 650px;
-                    background: #246D2B;
-                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-                    border-radius: 17px;
-                    font-family: 'Inter', sans-serif;
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 10px;
-                    line-height: 19px;
-                    color: #FFFFFF;
-                    text-align: center;
-                    }
-
-            }
-
             .checkout4 {
                 position: absolute;
                 width: 90px;
@@ -1326,25 +843,4 @@ line-height: 36px;
                         text-align: center;
                         }
         
-                }
-
-                @media only screen and (min-width: 992px) {
-                    .checkout4 {
-                        position: absolute;
-                        width: 90px;
-                        height: 22px;
-                        left: 880px;
-                        top: 652px;
-                        background: #246D2B;
-                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-                        border-radius: 17px;
-                        font-family: 'Inter', sans-serif;
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 10px;
-                        line-height: 19px;
-                        color: #FFFFFF;
-                        text-align: center;
-                        }
-
                 }
