@@ -4,7 +4,7 @@ body {
     
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     body {
         margin: 0;
         overflow-x: hidden;
@@ -15,14 +15,15 @@ body {
 .topnavigation {
     background-color: #D9D9D9;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
-        margin-top: 0px;
+        margin-top: 0rem;
+        max-width: 100%;
       
     }
 }
@@ -32,21 +33,23 @@ body {
     font-style: normal;
     text-decoration: none;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
     color: black
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         text-decoration: none;
         font-weight: 400;
-        font-size: 10px;
-        line-height: 30px;
+        font-size: 0.625rem;
+        line-height: 1.875rem;
         color: black;
         z-index: 1;
+        max-width: 100%;
+        
     }
 }
 
@@ -54,17 +57,17 @@ body {
     position: relative;
     left: 1226px;
     bottom: 267px;
-    height: 20px;
-    width: 30px;
+    max-width: 100%;
+   
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchicon {
     position: relative;
-    left: 330px;
-    bottom: 26px;
-    height: 20px;
-    width: 23px;
+    left: 20.625rem;
+    bottom: 1.625rem;
+    height: 1.25rem;
+    max-width: 100%;
     
 }
 }
@@ -74,10 +77,10 @@ body {
     left: 750px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .location {
         position: relative;
-        left: 52px;
+        left: 3.25rem;
         
     }
 }
@@ -87,10 +90,10 @@ body {
     left: 856px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .events {
         position: relative;
-        left: 56px;
+        left: 3.5rem;
     }
 }
 
@@ -99,10 +102,10 @@ body {
     left: 942px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .aboutus {
         position: relative;
-        left: 60px;
+        left: 3.75rem;
     }
 }
 
@@ -111,10 +114,10 @@ body {
     left: 1056px;
 }
 
-@media only screen and (max-width: 375px) { 
+@media only screen and (max-width: 576px) { 
     .sign {
         position: relative;
-        left: 66px;
+        left: 4.125rem;
     }
 }
 
@@ -122,17 +125,17 @@ body {
     position: absolute;
     left: 25px;
     top: 6px;
-    height: 80px;
-    width: 80px;
+    height: auto;
+    max-width: 100%;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .librarylogo {
         position: absolute;
-        left: -1px;
-        top: 1px;
-        height: 50px;
-        width: 50px;
+        left: -0.063rem;
+        top: 0.063rem;
+        height: 3.125rem;
+        max-width: 100%;
     
        
     }
@@ -146,16 +149,17 @@ body {
     font-family: 'Mate', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
  
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .options {
         position: relative;
-        left: 1px;
-        bottom: 980px;
-        font-size: 10px;
+        left: 0.063rem;
+        bottom: 61.25rem;
+        font-size: 0.625rem;
+        max-width: 100%;
     }
 }
 
@@ -172,12 +176,12 @@ body {
     line-height: 24px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchtext {
         position: relative;
-        left: -73px;
-        top: 55px;
-        font-size: 12px;
+        left: -4.563rem;
+        top: 3.438rem;
+        font-size: 0.75rem;
     }
 }
 
@@ -188,11 +192,12 @@ body {
     top: 46px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchbuttons {
         position: relative;
-        left: -100px;
-        top: -62px;
+        left: -6.25rem;
+        top: -3.875rem;
+        max-width: 100%;
         
     }
 }
@@ -214,12 +219,12 @@ body {
     line-height: 19px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .title {
         position: relative;
-        left: 20px;
-        width: 60px;
-        height: 20px;
+        left: 1.25rem;
+        width: 3.75rem;
+        height: 1.25rem;
     }
 }
 
@@ -241,12 +246,12 @@ body {
    
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .isbn {
         position: relative;
-        left: 20px;
-        width: 60px;
-        height: 20px;
+        left: 1.25rem;
+        width: 3.75rem;
+        height: 1.25rem;
     }
 }
 
@@ -256,11 +261,12 @@ body {
     top: -9px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .dropdowns {
         position: relative;
-        left: -890px;
-        top: -70px;
+        left: -55.625rem;
+        top: -4.375rem;
+        max-width: 100%;
     }
 }
 
@@ -280,11 +286,11 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #format {
         position: relative;
-        width: 75px;
-        height: 20px;
+        max-width: 100%;
+        height: 1.25rem;
     }
 }
 
@@ -304,16 +310,16 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #genre {
-        width: 67px;
-        height: 20px;
+        max-width: 100%;
+        height: 1.25rem;
     }
 }
 
 .firstheader {
     position: absolute;
-    width: 409px;
+    max-width: 100%;
     height: 122px;
     left: 250px;
     top: 130px;
@@ -324,70 +330,69 @@ body {
     line-height: 61px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .firstheader {
         position: relative;
-        width: 100%;
-        height: 122px;
-        left: 110px;
-        top: 30px;
+        max-width: 70%;
+        height: 7.625rem;
+        left: 6.875rem;
+        top: 1.875rem;
         font-family: 'Mate', serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 22px;
-        line-height: 29px;
+        font-size: 1.375rem;
+        line-height: 1.813rem;
         
     }
 }
 
 .paragraph {
     position: absolute;
-    width: 550px;
+    max-width: 550px;
     height: 209px;
     left: 250px;
     top: 270px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 0.813rem;
     line-height: 19px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .paragraph {
         position: relative;
-        width: 220px;
-        height: 400px;
-        left: 67px;
-        top: -50px;
+        max-width: 77%;
+        height: 25rem;
+        left: 4.188rem;
+        top: -3.125rem;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 0.625rem;
+        line-height: 0.75rem;
         text-align: right;
     }
-   
-  
+    
 }
 
 .books {
     position: relative;
     left: 760px;
     bottom: -70px;
-    width: 400px;
+    max-width: 100%;
     height: 260px;
     border-radius: 57px;
   
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .books {
         position: relative;
-        left: 14px;
-        bottom: 100px;
-        width: 270px;
-        height: 200px;
+        left: 0.875rem;
+        bottom: 6.25rem;
+        max-width: 100%;
+        height: 12.5rem;
         
     }
 }
@@ -396,18 +401,18 @@ body {
     position: relative;
     left: 360px;
     top: 345px;
-    width: 399px;
+    max-width: 100%;
     height: 260px;
     border-radius: 52px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .kids {
         position: relative;
-        left: 14px;
-        top: -32px;
-        width: 270px;
-        height: 200px;
+        left: 0.875rem;
+        top: -2rem;
+        max-width: 100%;
+        height: 12.5rem;
         
     }
 }
@@ -431,15 +436,15 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .student {
         position: relative;
-        left: 70px;
-        top: -780px;
-        width: 160px;
-        height: 30px;
-        font-size: 10px;
-        line-height: 28px;
+        left: 4.375rem;
+        top: -48.75rem;
+        max-width: 60%;
+        height: 1.875rem;
+        font-size: 0.625rem;
+        line-height: 1.75rem;
     }
 }
 
@@ -462,15 +467,15 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .students {
         position: relative;
-        left: 70px;
-        top: -630px;
-        width: 160px;
-        height: 30px;
-        font-size: 10px;
-        line-height: 28px;
+        left: 4.375rem;
+        top: -39.375rem;
+        max-width: 60%;
+        height: 1.875rem;
+        font-size: 0.625rem;
+        line-height: 1.75rem;
     }
 }
 
@@ -495,14 +500,14 @@ body {
     
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .kidsprograms {
         position: relative;
-        left: 70px;
-        top: -420px;
-        width: 160px;
-        height: 30px;
-        font-size: 10px;
-        line-height: 28px;
+        left: 4.375rem;
+        top: -26.25rem;
+        max-width: 60%;
+        height: 1.875rem;
+        font-size: 0.625rem;
+        line-height: 1.75rem;
     }
 }

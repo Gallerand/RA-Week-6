@@ -4,7 +4,7 @@ body {
     
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     body {
         margin: 0;
         overflow-x: hidden;
@@ -14,14 +14,14 @@ body {
 .topnavigation {
     background-color: #D9D9D9;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
-        margin-top: 0px;
+        margin-top: 0rem;
     }
 }
 
@@ -35,17 +35,18 @@ body {
     color: black
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         text-decoration: none;
         font-weight: 400;
-        font-size: 13px;
-        line-height: 30px;
+        font-size: 0.75rem;
+        line-height: 1.875rem;
         color: black;
         float: left;
         z-index: 1;
+        max-width: 100%;
     }
 }
 
@@ -57,13 +58,13 @@ body {
     width: 30px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchicon {
     position: relative;
     left: 330px;
     bottom: 26px;
     height: 20px;
-    width: 23px;
+    max-width: 100%;
 }
 }
 
@@ -72,7 +73,7 @@ body {
     left: 750px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .location {
         position: relative;
         left: 54px;
@@ -85,7 +86,7 @@ body {
     left: 856px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .events {
         position: relative;
         left: 60px;
@@ -97,7 +98,7 @@ body {
     left: 942px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .aboutus {
         position: relative;
         left: 68px;
@@ -109,7 +110,7 @@ body {
     left: 1056px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .sign {
         position: relative;
         left: 72px;
@@ -124,13 +125,13 @@ body {
     width: 80px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .librarylogo {
         position: absolute;
         left: -1px;
         top: 1px;
         height: 50px;
-        width: 50px;
+        max-width: 14%;
     }
     
 }
@@ -146,12 +147,13 @@ body {
  
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .options {
         position: relative;
         left: 1px;
         top: 1px;
-        font-size: 10px;
+        font-size: 0.625rem;
+        max-width: 100%;
     }
 }
 
@@ -168,12 +170,12 @@ body {
     line-height: 24px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchtext {
         position: relative;
         left: -73px;
         top: 55px;
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 }
 
@@ -184,11 +186,12 @@ body {
     top: 46px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchbuttons {
         position: relative;
         left: -100px;
         top: -62px;
+        max-width: 100%;
         
     }
 }
@@ -210,7 +213,7 @@ body {
     line-height: 19px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .title {
         position: relative;
         left: 20px;
@@ -237,7 +240,7 @@ body {
    
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .isbn {
         position: relative;
         left: 20px;
@@ -252,7 +255,7 @@ body {
     top: -9px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .dropdowns {
         position: relative;
         left: -890px;
@@ -276,11 +279,10 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #format {
         position: relative;
-        
-        width: 75px;
+        max-width: 100%;
         height: 20px;
     }
 }
@@ -301,9 +303,9 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #genre {
-        width: 67px;
+        max-width: 100%;
         height: 20px;
     }
 }
@@ -315,12 +317,13 @@ body {
     top: 140px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .bookcover {
         position: absolute;
         left: 96px;
         height: 310px;
         top: 130px;
+        max-width: 100%;
     }
     }
 
@@ -342,11 +345,11 @@ body {
     text-align: center;
     }
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 576px) {
 
     .checkout {
         position: absolute;
-        width: 150px;
+        max-width: 100%;
         height: 40px;
         left: 126px;
         top: 480px;
@@ -356,8 +359,8 @@ body {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 19px;
+        font-size: 1.438rem;
+        line-height: 1.25rem;
         color: #FFFFFF;
         text-align: center;
         }
@@ -376,19 +379,19 @@ font-size: 20px;
 line-height: 27px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .rating {
         position: absolute;
-        width: 60px;
+        max-width: 100%;
         height: 27px;
         left: 110px;
         top: 425px;
         font-family: 'Tiro Devanagari Hindi';
         font-style: normal;
         font-weight: 400;
-        font-size: 19px;
-        line-height: 27px;
+        font-size: 1.25rem;
+        line-height: 1.625rem;
         }
 }
 
@@ -398,12 +401,13 @@ line-height: 27px;
         top: 550px;
     }
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 576px) {
 
     .stars {
         position: absolute;
         left: 170px;
         top: 446px;
+        max-width: 100%;
     }
 }
     
@@ -413,12 +417,13 @@ line-height: 27px;
     bottom: 2px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .star4 {
         position: absolute;
         left: 71px;
         bottom: 2px;
+        max-width: 100%;
     }
     
 }
@@ -429,12 +434,13 @@ line-height: 27px;
     bottom: 3.5px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .star5 {
         position: absolute;
         left: 97px;
         bottom: 3.5px;
+        max-width: 100%;
     }
 }
 
@@ -451,19 +457,19 @@ line-height: 27px;
     line-height: 24px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .bookinfo {
         position: absolute;
         left: 56px;
         top: 530px;
-        width: 310px;
+        max-width: 100%;
         height: 49px;
         font-family: 'Mandali';
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
     }
 }
 
@@ -480,20 +486,20 @@ font-size: 26px;
 line-height: 35px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
 
 .summary {
     position: absolute;
-    width: 133px;
+    max-width: 100%;
     height: 35px;
     left: 128px;
     top: 680px;
     font-family: 'Tienne';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 1.25rem;
+    line-height: 2rem;
     }
 }
 
@@ -510,19 +516,19 @@ font-size: 17px;
 line-height: 31px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .paragraph1 {
         position: absolute;
-        width: 308px;
+        max-width: 90%;
         height: 215px;
         left: 8px;
         top: 710px;
         font-family: 'Merge One';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 31px;
+        font-size: 1rem;
+        line-height: 2rem;
         text-align: center;
         }
 }
@@ -542,20 +548,20 @@ text-decoration-line: underline;
 color: #1865D9;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
 
 .readmore {
     position: absolute;
-    width: 115px;
+    max-width: 100%;
     height: 27px;
     left: 220px;
     top: 976px;
     font-family: 'Tienne';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 27px;
+    font-size: 1rem;
+    line-height: 2rem;
     text-decoration-line: underline;
     color: #1865D9;
     }
@@ -574,19 +580,19 @@ font-size: 26px;
 line-height: 35px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .reviews {
         position: absolute;
-        width: 114px;
+        max-width: 100%;
         height: 35px;
         left: 134px;
         top: 990px;
         font-family: 'Tienne';
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 35px;
+        font-size: 1.25rem;
+        line-height: 2rem;
         }
         
 }
@@ -604,19 +610,19 @@ font-size: 17px;
 line-height: 33px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .paragraph2 {
         position: absolute;
-        width: 300px;
+        max-width: 90%;
         height: 100px;
         left: 16px;
         top: 1020px;
         font-family: 'Merriweather';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 33px;
+        font-size: 1rem;
+        line-height: 2rem;
         
         }
         
@@ -635,20 +641,20 @@ font-size: 17px;
 line-height: 33px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
 
 .paragraph3 {
     position: absolute;
-    width: 300px;
+    max-width: 90%;
     height: 100px;
     left: 16px;
     top: 1170px;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 33px;
+    font-size: 1rem;
+    line-height: 2rem;
     }
     
 }
@@ -668,19 +674,19 @@ line-height: 33px;
     color: #1865D9;
     }
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 576px) {
 
         .readmore2 {
             position: absolute;
-            width: 115px;
+            max-width: 100%;
             height: 27px;
             left: 139px;
             top: 1137px;
             font-family: 'Tienne';
             font-style: normal;
             font-weight: 700;
-            font-size: 16px;
-            line-height: 27px;
+            font-size: 1rem;
+            line-height: 1.75rem;
             text-decoration-line: underline;
             color: #1865D9;
             }
@@ -702,19 +708,19 @@ line-height: 33px;
         color: #1865D9;
         }
         
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 576px) {
 
             .readmore3 {
                 position: absolute;
-                width: 84px;
+                max-width: 100%;
                 height: 27px;
                 left: 253px;
                 top: 1289px;
                 font-family: 'Tienne';
                 font-style: normal;
                 font-weight: 700;
-                font-size: 14px;
-                line-height: 27px;
+                font-size: 1rem;
+                line-height: 1.75rem;
                 text-decoration-line: underline;
                 color: #1865D9;
                 }

@@ -4,7 +4,7 @@ body {
     
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     body {
         margin: 0;
         overflow-x: hidden;
@@ -14,14 +14,14 @@ body {
 .topnavigation {
     background-color: #D9D9D9;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
-        margin-top: 0px;
+        margin-top: 0rem;
     }
 }
 
@@ -35,17 +35,18 @@ body {
     color: black
 }
 
-@media only screen and (max-width: 375px) { 
+@media only screen and (max-width: 576px) { 
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         text-decoration: none;
         font-weight: 400;
-        font-size: 13px;
-        line-height: 30px;
+        font-size: 0.75rem;
+        line-height: 1.875rem;
         color: black;
         float: left;
         z-index: 1;
+        max-width: 100%;
     }
 }
 
@@ -57,13 +58,13 @@ body {
     width: 30px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchicon {
     position: relative;
     left: 330px;
     bottom: 26px;
     height: 20px;
-    width: 23px;
+    max-width: 100%;
 }
 }
 
@@ -72,7 +73,7 @@ body {
     left: 750px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .location {
         position: relative;
         left: 62px;
@@ -85,7 +86,7 @@ body {
     left: 856px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .events {
         position: relative;
         left: 72px;
@@ -97,7 +98,7 @@ body {
     left: 942px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .aboutus {
         position: relative;
         left: 82px;
@@ -109,7 +110,7 @@ body {
     left: 1056px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .sign {
         position: relative;
         left: 92px;
@@ -124,13 +125,13 @@ body {
     width: 80px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .librarylogo {
         position: absolute;
         left: -1px;
         top: 1px;
         height: 50px;
-        width: 50px;
+        max-width: 14%;
     }
     
 }
@@ -146,12 +147,13 @@ body {
  
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .options {
         position: relative;
         left: 1px;
         top: 1px;
         font-size: 10px;
+        max-width: 100%;
     }
 }
 
@@ -168,12 +170,12 @@ body {
     line-height: 24px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchtext {
         position: relative;
         left: -73px;
         top: 55px;
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 }
 
@@ -184,11 +186,12 @@ body {
     top: 46px;
 }
 
-@media only screen and (max-width: 375px) { 
+@media only screen and (max-width: 576px) { 
     .searchbuttons {
         position: relative;
         left: -100px;
         top: -62px;
+        max-width: 100%;
         
     }
 }
@@ -210,7 +213,7 @@ body {
     line-height: 19px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .title {
         position: relative;
         left: 20px;
@@ -237,7 +240,7 @@ body {
    
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .isbn {
         position: relative;
         left: 20px;
@@ -252,7 +255,7 @@ body {
     top: -9px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .dropdowns {
         position: relative;
         left: -890px;
@@ -276,11 +279,10 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #format {
         position: relative;
-        
-        width: 75px;
+        max-width: 100%;
         height: 20px;
     }
 }
@@ -301,9 +303,9 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #genre {
-        width: 67px;
+        max-width: 100%;
         height: 20px;
     }
 }
@@ -316,14 +318,14 @@ width: 300px;
 height: 300px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
 
 .circle {
     position: absolute;
     left: 70px;
     top: 290px;
-    width: 200px;
+    max-width: 60%;
     height: 200px;
     }
 }
@@ -336,12 +338,12 @@ width: 190.67px;
 height: 173.33px;
 }
 
-@media only screen and (max-width: 375px) { 
+@media only screen and (max-width: 576px) { 
     .camera {
         position: absolute;
         left: 116px;
         top: 332px;
-        width: 110px;
+        max-width: 40%;
         height: 110px;
         }
 }
@@ -362,19 +364,19 @@ color: #FFFFFF;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .upload {
         position: absolute;
-        width: 101px;
+        max-width: 100%;
         height: 20px;
         left: 116px;
         top: 438px;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 15px;
-        line-height: 30px;
+        font-size: 1rem;
+        line-height: 2rem;
         text-decoration-line: underline;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -395,18 +397,18 @@ line-height: 61px;
 color: #742C2C;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .welcome {
         position: absolute;
-        width: 300px;
+        max-width: 80%;
         height: 61px;
         left: 90px;
         top: 90px;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
         color: #742C2C;
         }
 }
@@ -425,18 +427,18 @@ line-height: 61px;
 color: #ED907F;
 }
 
-@media only screen and (max-width: 375px) { 
+@media only screen and (max-width: 576px) { 
     .lets {
         position: absolute;
-        width: 600px;
+        max-width: 100%;
         height: 61px;
         left: 90px;
         top: 140px;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 61px;
+        font-size: 1.25rem;
+        line-height: 3.75rem;
         color: #ED907F;
         }
 }
@@ -455,18 +457,18 @@ line-height: 61px;
 color: #984F1F;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .create {
         position: absolute;
-        width: 466px;
+        max-width: 100%;
         height: 61px;
         left: 90px;
         top: 190px;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 61px;
+        font-size: 1.25rem;
+        line-height: 3.75rem;
         color: #984F1F;
         }
         
@@ -478,11 +480,12 @@ color: #984F1F;
     top: 340px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .registerform {
         position: absolute;
         left: 5px;
         top: 500px;
+        max-width: 100%;
     }
     
 }
@@ -491,9 +494,10 @@ fieldset {
     border: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     fieldset {
         border: none;
+        max-width: 100%;
     }
     
 }
@@ -506,9 +510,9 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .fullname {
-        width: 294px;
+        max-width: 90%;
         height: 22px;
         background: #D9D9D9;
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -525,9 +529,9 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .email {
-        width: 294px;
+        max-width: 90%;
         height: 22px;
         background: #D9D9D9;
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -544,9 +548,9 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .phone {
-        width: 294px;
+        max-width: 90%;
         height: 22px;
         background: #D9D9D9;
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -562,9 +566,9 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 border: none;
 }
 
-@media only screen and (max-width: 375px) { 
+@media only screen and (max-width: 576px) { 
     .address {
-        width: 294px;
+        max-width: 90%;
         height: 22px;
         background: #D9D9D9;
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -587,9 +591,9 @@ border: none;
     color: #FFFFFF;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .registerbutton {
-        width: 170px;
+        max-width: 100%;
         height: 28px;
         background: #067C44;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -597,8 +601,8 @@ border: none;
         font-family: 'Tahoma';
         font-style: normal;
         font-weight: 100;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 1rem;
+        line-height: 1.375rem;
         color: #FFFFFF;
     }
     
@@ -617,18 +621,18 @@ font-size: 12px;
 line-height: 14px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .already {
         position: absolute;
-        width: 106px;
+        max-width: 100%;
         height: 14px;
         left: 192px;
         top: 798px;
         font-family: 'Tahoma';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 0.625rem;
+        line-height: 0.75rem;
         }
 }
 
@@ -648,18 +652,18 @@ color: #2477D9;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .lastsignin {
         position: absolute;
-        width: 38px;
+        max-width: 100%;
         height: 14px;
         left: 282px;
         top: 807px;
         font-family: 'Tahoma';
         font-style: normal;
         font-weight: 400;
-        font-size: 8px;
-        line-height: 14px;
+        font-size: 0.625rem;
+        line-height: 1rem;
         text-decoration-line: underline;
         color: #2477D9;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

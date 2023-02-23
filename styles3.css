@@ -4,7 +4,7 @@ body {
     
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     body {
         margin: 0;
         overflow-x: hidden;
@@ -17,11 +17,12 @@ body {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
         margin-top: 0px;
+        max-width: 100%;
     }
 }
 
@@ -35,17 +36,18 @@ body {
     color: black
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         text-decoration: none;
         font-weight: 400;
-        font-size: 13px;
-        line-height: 30px;
+        font-size: 0.75rem;
+        line-height: 1.875rem;
         color: black;
         float: left;
         z-index: 1;
+        max-width: 100%;
     }
 }
 
@@ -57,13 +59,13 @@ body {
     width: 30px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchicon {
     position: relative;
     left: 330px;
     bottom: 26px;
     height: 20px;
-    width: 23px;
+    max-width: 100%;
 }
 }
 
@@ -71,7 +73,7 @@ body {
     position: absolute;
     left: 750px;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .location {
         position: relative;
         left: 52px;
@@ -84,7 +86,7 @@ body {
     left: 856px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .events {
         position: relative;
         left: 56px;
@@ -96,7 +98,7 @@ body {
     left: 942px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .aboutus {
         position: relative;
         left: 60px;
@@ -108,7 +110,7 @@ body {
     left: 1056px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .sign {
         position: relative;
         left: 66px;
@@ -123,13 +125,13 @@ body {
     width: 80px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .librarylogo {
         position: absolute;
         left: -1px;
         top: 1px;
         height: 50px;
-        width: 50px;
+        max-width: 14%;
     }
     
 }
@@ -145,12 +147,13 @@ body {
  
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .options {
         position: relative;
         left: 1px;
         top: 1px;
-        font-size: 10px;
+        font-size: 0.625rem;
+        max-width: 100%;
     }
 }
 
@@ -167,12 +170,12 @@ body {
     line-height: 24px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchtext {
         position: relative;
         left: -73px;
         top: 55px;
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 }
 
@@ -183,11 +186,12 @@ body {
     top: 46px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchbuttons {
         position: relative;
         left: -100px;
         top: -62px;
+        max-width: 100%;
         
     }
 }
@@ -209,7 +213,7 @@ body {
     line-height: 19px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .title {
         position: relative;
         left: 20px;
@@ -236,7 +240,7 @@ body {
    
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .isbn {
         position: relative;
         left: 20px;
@@ -251,7 +255,7 @@ body {
     top: -9px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .dropdowns {
         position: relative;
         left: -890px;
@@ -275,11 +279,10 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #format {
         position: relative;
-        
-        width: 75px;
+        max-width: 100%;
         height: 20px;
     }
 }
@@ -300,9 +303,9 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #genre {
-        width: 67px;
+        max-width: 100%;
         height: 20px;
     }
 }
@@ -319,17 +322,17 @@ body {
     text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .sentence {
         position: relative;
         left: 1px;
         top: 224px;
-        width: 300px;
+        max-width: 90%;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 11px;
-        line-height: 24px;
+        font-size: 0.625rem;
+        line-height: 1.438rem;
         
 }
 }
@@ -344,12 +347,12 @@ body {
         top: 150px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .background {
         background-image: url("./assets/Rectangle\ 5.png");
         background-size: contain;
-        width: 290px;
+        max-width: 78%;
         height: 101px;
         position: absolute;
         left: 8px;
@@ -368,11 +371,11 @@ body {
     top: 389px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .background2 {
         background-image: url("./assets/Rectangle\ 11.png");
         background-size: contain;
-        width: 290px;
+        max-width: 78%;
         height: 105px;
         position: absolute;
         left: 8px;
@@ -390,11 +393,11 @@ body {
     top: 180px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .background3 {
         background-image: url("./assets/Rectangle\ 9.png");
         background-size: contain;
-        width: 160px;
+        max-width: 40%;
         height: 250px;
         position: relative;
         left: 110px;
@@ -420,10 +423,10 @@ color: #000000;
 text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .notavailable {
 position: relative;
-width: 140px;
+max-width: 40%;
 height: 22px;
 left: 120px;
 top: -190px;
@@ -433,8 +436,8 @@ border-radius: 5px;
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
-line-height: 17px;
+font-size: 1.25rem;
+line-height: 0.875rem;
 color: #000000;
 text-align: center;
     }
@@ -458,10 +461,10 @@ color: #FFFFFF;
 text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .placehold {
 position: absolute;
-width: 143px;
+max-width: 100%;
 height: 28px;
 left: 120px;
 top: 420px;
@@ -471,8 +474,8 @@ border-radius: 5px;
 font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 25px;
-line-height: 24px;
+font-size: 1.438rem;
+line-height: 1.438rem;
 color: #FFFFFF;
 text-align: center;
 }
@@ -496,10 +499,10 @@ color: #FFFFFF;
 text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .checkout {
         position: absolute;
-        width: 70px;
+        max-width: 19%;
         height: 18px;
         left: 9px;
         top: 660px;
@@ -509,8 +512,8 @@ text-align: center;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 0.625rem;
+        line-height: 0.875rem;
         color: #FFFFFF;
         text-align: center;
         }
@@ -534,10 +537,10 @@ text-align: center;
     text-align: center;
     }
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 576px) {
     .checkout2 {
         position: absolute;
-        width: 70px;
+        max-width: 19%;
         height: 18px;
         left: 80px;
         top: 660px;
@@ -547,8 +550,8 @@ text-align: center;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 0.625rem;
+        line-height: 0.875rem;
         color: #FFFFFF;
         text-align: center;
         }
@@ -572,10 +575,10 @@ text-align: center;
         text-align: center;
         }
         
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 576px) {
             .checkout3 {
                 position: absolute;
-                width: 70px;
+                max-width: 19%;
                 height: 18px;
                 left: 152px;
                 top: 660px;
@@ -585,8 +588,8 @@ text-align: center;
                 font-family: 'Inter', sans-serif;
                 font-style: normal;
                 font-weight: 400;
-                font-size: 10px;
-                line-height: 16px;
+                font-size: 0.625rem;
+                line-height: 0.875rem;
                 color: #FFFFFF;
                 text-align: center;
                 }
@@ -610,10 +613,10 @@ text-align: center;
             text-align: center;
             }
             
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-width: 576px) {
                 .checkout4 {
                     position: absolute;
-                    width: 70px;
+                    max-width: 19%;
                     height: 18px;
                     left: 229px;
                     top: 660px;
@@ -623,8 +626,8 @@ text-align: center;
                     font-family: 'Inter', sans-serif;
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px;
-                    line-height: 16px;
+                    font-size: 0.625rem;
+                    line-height: 0.875rem;
                     color: #FFFFFF;
                     text-align: center;
                     }
@@ -648,11 +651,11 @@ text-align: center;
                 text-align: center;
                 }
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-width: 576px) {
 
         .checkout5 {
             position: absolute;
-            width: 70px;
+            max-width: 19%;
             height: 18px;
             left: 9px;
             top: 798px;
@@ -662,8 +665,8 @@ text-align: center;
             font-family: 'Inter', sans-serif;
             font-style: normal;
             font-weight: 400;
-            font-size: 10px;
-            line-height: 16px;
+            font-size: 0.625rem;
+            line-height: 0.875rem;
             color: #FFFFFF;
             text-align: center;
             }
@@ -688,10 +691,10 @@ text-align: center;
                     text-align: center;
                     }
                     
-                    @media only screen and (max-width: 375px) {
+                    @media only screen and (max-width: 576px) {
                         .checkout6 {
                             position: absolute;
-                            width: 70px;
+                            max-width: 19%;
                             height: 18px;
                             left: 80px;
                             top: 798px;
@@ -701,8 +704,8 @@ text-align: center;
                             font-family: 'Inter', sans-serif;
                             font-style: normal;
                             font-weight: 400;
-                            font-size: 10px;
-                            line-height: 16px;
+                            font-size: 0.625rem;
+                            line-height: 0.875rem;
                             color: #FFFFFF;
                             text-align: center;
                             }
@@ -726,10 +729,10 @@ text-align: center;
                         text-align: center;
                         }
 
-                        @media only screen and (max-width: 375px) {
+                        @media only screen and (max-width: 576px) {
                             .checkout7 {
                                 position: absolute;
-                                width: 70px;
+                                max-width: 19%;
                                 height: 18px;
                                 left: 152px;
                                 top: 798px;
@@ -739,8 +742,8 @@ text-align: center;
                                 font-family: 'Inter', sans-serif;
                                 font-style: normal;
                                 font-weight: 400;
-                                font-size: 10px;
-                                line-height: 16px;
+                                font-size: 0.625rem;
+                                line-height: 0.875rem;
                                 color: #FFFFFF;
                                 text-align: center;
                                 }
@@ -765,10 +768,10 @@ text-align: center;
                             text-align: center;
                             }
 
-                            @media only screen and (max-width: 375px) {
+                            @media only screen and (max-width: 576px) {
                                 .checkout8 {
                                     position: absolute;
-                                    width: 70px;
+                                    max-width: 19%;
                                     height: 18px;
                                     left: 229px;
                                     top: 798px;
@@ -778,8 +781,8 @@ text-align: center;
                                     font-family: 'Inter', sans-serif;
                                     font-style: normal;
                                     font-weight: 400;
-                                    font-size: 10px;
-                                    line-height: 16px;
+                                    font-size: 0.625rem;
+                                    line-height: 0.875rem;
                                     color: #FFFFFF;
                                     text-align: center;
                                     }
@@ -796,7 +799,7 @@ text-align: center;
     font-size: 22px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .pagination {
         position: absolute;
         left: 250px;
@@ -804,8 +807,8 @@ text-align: center;
         display: inline-block;
         text-decoration: underline;
         color: #000000;
-        padding: -1px 0px 22px;
-        font-size: 8px;
+        padding: -16rem 0rem 1.375rem;
+        font-size: 0.625rem;
     }
 }
 
@@ -819,13 +822,13 @@ text-decoration-line: underline;
 color: #000000;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .num1 {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 10px;
-        line-height: 30px;
+        font-size: 0.625rem;
+        line-height: 1.875rem;
         text-decoration-line: underline;
         color: #000000;
         }

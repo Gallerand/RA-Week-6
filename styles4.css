@@ -4,7 +4,7 @@ body {
     
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     body {
         margin: 0;
         overflow-x: hidden;
@@ -17,11 +17,11 @@ body {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .topnavigation {
         background-color:rgb(229, 136, 136);
         overflow: hidden;
-        margin-top: 0px;
+        margin-top: 0rem;
     }
 }
 
@@ -35,17 +35,18 @@ body {
     color: black
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .topnavigation a {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         text-decoration: none;
         font-weight: 400;
-        font-size: 13px;
-        line-height: 30px;
+        font-size: 0.75rem;
+        line-height: 1.875rem;
         color: black;
         float: left;
         z-index: 1;
+        max-width: 100%;
     }
 }
 
@@ -57,13 +58,13 @@ body {
     width: 30px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchicon {
     position: relative;
     left: 330px;
     bottom: 26px;
     height: 20px;
-    width: 23px;
+    max-width: 100%;
 }
 }
 
@@ -72,7 +73,7 @@ body {
     left: 750px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .location {
         position: relative;
         left: 52px;
@@ -85,7 +86,7 @@ body {
     left: 856px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .events {
         position: relative;
         left: 56px;
@@ -97,7 +98,7 @@ body {
     left: 942px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .aboutus {
         position: relative;
         left: 60px;
@@ -109,7 +110,7 @@ body {
     left: 1056px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .sign {
         position: relative;
         left: 66px;
@@ -124,13 +125,13 @@ body {
     width: 80px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .librarylogo {
         position: absolute;
         left: -1px;
         top: 1px;
         height: 50px;
-        width: 50px;
+        max-width: 14%;
     }
     
 }
@@ -146,12 +147,13 @@ body {
  
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .options {
         position: relative;
         left: 1px;
         top: 1px;
-        font-size: 10px;
+        font-size: 0.625rem;
+        max-width: 100%;
     }
 }
 
@@ -168,12 +170,12 @@ body {
     line-height: 24px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchtext {
         position: relative;
         left: -73px;
         top: 55px;
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 }
 
@@ -184,12 +186,12 @@ body {
     top: 46px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .searchbuttons {
         position: relative;
         left: -100px;
         top: -62px;
-        
+        max-width: 100%;
     }
 }
 
@@ -210,7 +212,7 @@ body {
     line-height: 19px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .title {
         position: relative;
         left: 20px;
@@ -237,7 +239,7 @@ body {
    
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .isbn {
         position: relative;
         left: 20px;
@@ -252,7 +254,7 @@ body {
     top: -9px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .dropdowns {
         position: relative;
         left: -890px;
@@ -276,11 +278,10 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #format {
         position: relative;
-        
-        width: 75px;
+        max-width: 100%;
         height: 20px;
     }
 }
@@ -301,9 +302,9 @@ body {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     #genre {
-        width: 67px;
+        max-width: 100%;
         height: 20px;
     }
 }
@@ -321,19 +322,19 @@ font-size: 30px;
 line-height: 36px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     h1 {
         position: absolute;
-        width: 283px;
+        max-width: 100%;
         height: 36px;
         left: 100px;
         top: 80px;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 36px;
+        font-size: 1.25rem;
+        line-height: 2rem;
         }
 }
 
@@ -351,19 +352,19 @@ h2 {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     h2 {
         position: absolute;
         top: 120px;
         left: 130px;
-        width: 201px;
+        max-width: 100%;
         height: 36px;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 40px;
+        font-size: 1.25rem;
+        line-height: 2.5rem;
     
     }
 }
@@ -376,15 +377,15 @@ h2 {
     
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .profilepic {
         position: absolute;
         top: 180px;
         left: 80px;
         border-radius: 100.121px;
-        width: 200px;
-        height: 200px;
+        max-width: 55%;
+        
         
     }
 }
@@ -400,7 +401,7 @@ h2 {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .profileinfo {
         position: absolute;
@@ -408,8 +409,8 @@ h2 {
         top: 388px;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 1rem;
+        line-height: 1rem;
     
     }
     
@@ -423,13 +424,13 @@ h2 {
     height: 20px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .pencil {
         position: absolute;
         left: 230px;
         top: 400px;
-        width: 10px;
+        max-width: 100%;
         height: 10px;
     }
     
@@ -443,13 +444,13 @@ h2 {
     height: 20px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .pencil2 {
         position: absolute;
         left: 254px;
         top: 434px;
-        width: 10px;
+        max-width: 100%;
         height: 10px;
     }
     
@@ -473,19 +474,19 @@ h2 {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     #pgenres {
         position: absolute;
-        width: 96px;
+        max-width: 100%;
         height: 18px;
         left: 118px;
         top: 508px;
         font-family: 'Tahoma';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
-        line-height: 14px;
+        font-size: 0.625rem;
+        line-height: 0.875rem;
         text-decoration-line: underline;
         color: #2477D9;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -513,19 +514,19 @@ color: #2477D9;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .updateimage {
         position: absolute;
-        width: 69px;
+        max-width: 100%;
         height: 13px;
         left: 160px;
         top: 380px;
         font-family: 'Merriweather';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
-        line-height: 13px;
+        font-size: 0.625rem;
+        line-height: 0.75rem;
         display: flex;
         align-items: flex-end;
         text-decoration-line: underline;
@@ -548,20 +549,20 @@ font-size: 30px;
 line-height: 36px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
 
 .returns {
     position: absolute;
-    width: 230px;
+    max-width: 100%;
     height: 36px;
     left: 70px;
     top: 530px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.25rem;
+    line-height: 2rem;
     }
 }
 
@@ -573,14 +574,14 @@ line-height: 36px;
     width: 500px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .returnedbooks {
         position: absolute;
         top: 580px;
         left: 6px;
         height: 150px;
-        width: 280px;
+        max-width: 98%;
     }
     
 }
@@ -598,19 +599,19 @@ font-size: 30px;
 line-height: 36px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .favorites {
         position: absolute;
-        width: 201px;
+        max-width: 100%;
         height: 36px;
         left: 98px;
         top: 730px;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 20px;
-        line-height: 36px;
+        font-size: 1.25rem;
+        line-height: 2rem;
         }
         
 }
@@ -622,13 +623,14 @@ line-height: 36px;
     height: 200px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .book1 {
         position: absolute;
         left: 50px;
         top: 790px;
         height: 120px;
+        max-width: 100%;
     }
     
 }
@@ -640,13 +642,14 @@ line-height: 36px;
     height: 200px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
     .book2 {
         position: absolute;
         left: 150px;
         top: 790px;
         height: 120px;
+        max-width: 100%;
     }
     
 }
@@ -658,7 +661,7 @@ line-height: 36px;
     height: 200px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
 
 
 .book3 {
@@ -666,6 +669,7 @@ line-height: 36px;
     left: 50px;
     top: 944px;
     height: 120px;
+    max-width: 100%;
 }
 
 }
@@ -677,12 +681,13 @@ line-height: 36px;
     height: 200px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 576px) {
     .book4 {
         position: absolute;
         left: 150px;
         top: 944px;
         height: 120px;
+        max-width: 100%;
     }
 }
 
@@ -704,11 +709,11 @@ line-height: 36px;
     text-align: center;
     }
 
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 576px) {
 
         .checkout {
             position: absolute;
-            width: 68px;
+            max-width: 100%;
             height: 14px;
             left: 55px;
             top: 916px;
@@ -718,8 +723,8 @@ line-height: 36px;
             font-family: 'Inter', sans-serif;
             font-style: normal;
             font-weight: 400;
-            font-size: 10px;
-            line-height: 10px;
+            font-size: 0.625rem;
+            line-height: 0.625rem;
             color: #FFFFFF;
             text-align: center;
             }
@@ -744,11 +749,11 @@ line-height: 36px;
         text-align: center;
         }
 
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 576px) {
 
             .checkout2 {
                 position: absolute;
-                width: 68px;
+                max-width: 100%;
                 height: 14px;
                 left: 155px;
                 top: 916px;
@@ -758,8 +763,8 @@ line-height: 36px;
                 font-family: 'Inter', sans-serif;
                 font-style: normal;
                 font-weight: 400;
-                font-size: 10px;
-                line-height: 10px;
+                font-size: 0.625rem;
+                line-height: 0.625rem;
                 color: #FFFFFF;
                 text-align: center;
                 }
@@ -784,11 +789,11 @@ line-height: 36px;
             text-align: center;
             }
 
-            @media only screen and (max-width: 375px) {
+            @media only screen and (max-width: 576px) {
 
                 .checkout3 {
                     position: absolute;
-                    width: 68px;
+                    max-width: 100%;
                     height: 14px;
                     left: 155px;
                     top: 1070px;
@@ -798,8 +803,8 @@ line-height: 36px;
                     font-family: 'Inter', sans-serif;
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px;
-                    line-height: 10px;
+                    font-size: 0.625rem;
+                    line-height: 0.625rem;
                     color: #FFFFFF;
                     text-align: center;
                     }
@@ -823,11 +828,11 @@ line-height: 36px;
                 text-align: center;
                 }
 
-                @media only screen and (max-width: 375px) {
+                @media only screen and (max-width: 576px) {
 
                     .checkout4 {
                         position: absolute;
-                        width: 68px;
+                        max-width: 100%;
                         height: 14px;
                         left: 55px;
                         top: 1070px;
@@ -837,8 +842,8 @@ line-height: 36px;
                         font-family: 'Inter', sans-serif;
                         font-style: normal;
                         font-weight: 400;
-                        font-size: 10px;
-                        line-height: 10px;
+                        font-size: 0.625rem;
+                        line-height: 0.625rem;
                         color: #FFFFFF;
                         text-align: center;
                         }
